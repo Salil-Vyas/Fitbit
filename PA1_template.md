@@ -7,7 +7,7 @@ output: html_document
 #Researcher:  Salil Vyas
 ## Research Project:  Analyzing data produced by personal activity monitoring device
 
-![Fitbit](C:/testR/labs-r/repres/PA1/figure/fitbit android pic.png "Fitbit") 
+![Fitbit](C:/Publications/Fitbit/figure/fitbit android pic.png "Fitbit") 
 
 ###Introduction
 It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a [Fitbit] (www.fitbit.com), [Nike Fuelband] (http://www.nike.com/us/en_us/c/nikeplus-fuel), or [Jawbone Up] (https://jawbone.com/). These type of devices are part of the "quantified self" movement - a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.
@@ -35,26 +35,6 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 ```r
 #Load Lilbraries as needed
 library(dplyr)
-```
-
-```
-## Warning: package 'dplyr' was built under R version 3.1.3
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-## 
-## The following object is masked from 'package:stats':
-## 
-##     filter
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
 library(knitr)
 library (lattice)
 ```
